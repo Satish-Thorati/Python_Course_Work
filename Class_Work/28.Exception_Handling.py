@@ -15,6 +15,7 @@ print("rest of the code")
 
 #2. Multiple except blocks
 try:
+    b = 20
     a = b / 10
     a = int([1, 2, 3])
 except ZeroDivisionError:
