@@ -1,3 +1,4 @@
+from functools import reduce
 # 11. Check if string starts with a vowel using lambda
 starts_with_vowel = lambda s: s[0].lower() in 'aeiou'
 print(starts_with_vowel("apple"))    # True
